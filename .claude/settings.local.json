@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw -q dependency:resolve)",
+      "Bash(./mvnw test *)",
+      "Bash(xargs grep -l \"DataJpaTest\")"
+    ]
+  }
+}
